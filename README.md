@@ -35,10 +35,33 @@ Welcome to the Tournament App! This is a full-stack web application that allows 
 
 The project is organized into two main directories:
 
-```
-/
-├── backend/      # Contains the Node.js, Express, and MongoDB server-side code.
-└── frontend/     # Contains the React client-side application.
+```sh
+tournament-app/
+├── 📁 backend/
+│   ├── 📁 controllers/    # Handles request logic (e.g., userController.js)
+│   ├── 📁 middleware/     # Express middleware for auth, error handling, etc.
+│   ├── 📁 models/         # Mongoose schemas for the database (e.g., User.js)
+│   ├── 📁 routes/          # API route definitions (e.g., userRoutes.js)
+│   ├── 📄 .env            # Environment variables (DB connection, JWT secret)
+│   ├── 📄 server.js       # Main server entry point
+│   └── 📄 package.json
+│
+└── 📁 frontend/
+    ├── 📁 public/
+    │   └── 📄 index.html    # Main HTML template for the React app
+    ├── 📁 src/
+    │   ├── 📁 api/          # Axios instance configuration
+    │   │   └── 📄 axiosConfig.js
+    │   ├── 📁 components/   # Reusable UI components (e.g., Header, ProfileCard)
+    │   ├── 📁 context/      # React Context for global state (e.g., AuthContext)
+    │   │   └── 📄 AuthContext.js
+    │   ├── 📄 App.js        # Main component with React Router setup
+    │   ├── 📄 index.js      # Application entry point
+    │   ├── 📄 Register.js   # User registration page component
+    │   └── 📄 Login.js      # User login page component
+    ├── 📄 .gitignore
+    └── 📄 package.json
+
 ```
 
 ## Getting Started

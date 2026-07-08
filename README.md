@@ -2,15 +2,6 @@
 
 Welcome to the Tournament App! This is a full-stack web application that allows users to register, log in, manage a wallet, and participate in tournaments. It features a modern frontend built with React and a robust backend powered by Node.js and Express.
 
-## Live Demo & Screenshots
-
-**(Optional) Add a link to your deployed application here!**
-
-*[Link to Live Demo](https://your-deployment-link.com)*
-
-**(Optional) Add a screenshot or a GIF of your application in action below.**
-
-![App Screenshot](https://via.placeholder.com/800x450.png?text=Your+App+Screenshot+Here)
 
 ## Features
 

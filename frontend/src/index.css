@@ -1,0 +1,8 @@
+body {
+  /* This is your background gradient */
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white; /* Default text color */
+}
